@@ -14,7 +14,7 @@ class CalcsController < ApplicationController
     elsif @cal == "division"
       @num1 / @num2
     else
-      "URLが正しくありません"
+      "urlが正しくありません"
     end
   end
 
